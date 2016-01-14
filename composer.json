@@ -1,0 +1,22 @@
+{
+	"name": "hypejunction/access_grant",
+	"version": "0.0.0",
+	"type": "elgg-plugin",
+	"description": "Access grant",
+	"homepage": "http://hypejunction.com",
+	"keywords": [
+		"elgg", "plugin", "access"
+	],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Ismayil Khayredinov",
+			"email": "info@hypejunction.com"
+		}
+	],
+	"require": {
+		"php": ">=5.5",
+		"composer/installers": "~1.0"
+	}
+}
+
