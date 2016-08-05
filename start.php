@@ -16,11 +16,11 @@ elgg_register_event_handler('init', 'system', 'access_grant_init');
  */
 function access_grant_init() {
 
+	elgg_register_plugin_hook_handler('get_sql', 'access', 'access_grant_get_sql');
+	
 	if (elgg_is_active_plugin('elgg_solr')) {
 		elgg_register_plugin_hook_handler('elgg_solr:index', 'all', 'access_grant_solr_index');
 		elgg_register_plugin_hook_handler('elgg_solr:access', 'all', 'access_grant_solr_access_query');
-	} else {
-		elgg_register_plugin_hook_handler('get_sql', 'access', 'access_grant_get_sql');
 	}
 }
 
