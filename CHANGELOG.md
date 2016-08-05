@@ -1,3 +1,13 @@
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/hypeJunction/Elgg-access_grant/compare/1.1.0...v1.1.1) (2016-08-05)
+
+
+### Bug Fixes
+
+* **sql:** sql access hook is still needed ([6e01a0b](https://github.com/hypeJunction/Elgg-access_grant/commit/6e01a0b))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/hypeJunction/Elgg-access_grant/compare/1.0.1...v1.1.0) (2016-08-05)
 
