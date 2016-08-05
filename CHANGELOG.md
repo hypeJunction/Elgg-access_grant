@@ -1,3 +1,13 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/hypeJunction/Elgg-access_grant/compare/1.0.1...v1.1.0) (2016-08-05)
+
+
+### Features
+
+* **solr:** now integrated with elgg_solr ([bdb715b](https://github.com/hypeJunction/Elgg-access_grant/commit/bdb715b))
+
+
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/hypeJunction/Elgg-access_grant/compare/1.0.0...v1.0.1) (2016-03-25)
 
